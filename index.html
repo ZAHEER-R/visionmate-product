@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VisionMate is an assistive mobile app for blind and low-vision people. Explore its navigation, reading, identification and travel support.">
+  <meta property="og:title" content="VisionMate | Your eyes, your voice, your independence">
+  <meta property="og:description" content="A calm, practical guide for walking, reading, finding things and getting around.">
+  <meta property="og:type" content="website">
+  <title>VisionMate | Your eyes, your voice, your independence</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='18' fill='%23b85f32'/%3E%3Cpath d='M5 20s5.5-8 15-8 15 8 15 8-5.5 8-15 8S5 20 5 20Z' fill='none' stroke='%23fffaf0' stroke-width='2.5'/%3E%3Ccircle cx='20' cy='20' r='4' fill='%23fffaf0'/%3E%3C/svg%3E" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="VisionMate home">
+        <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19"/><path d="M5 20s5.5-8 15-8 15 8 15 8-5.5 8-15 8S5 20 5 20Z"/><circle cx="20" cy="20" r="4"/></svg><span>VisionMate</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Menu</span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#problem">Problem</a><a href="#modules">Features</a><a href="#how">How it works</a><a href="README.md">README</a><a class="nav-install" href="#install">Install</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">A little more confidence in every day</p>
+          <h1 id="hero-title">Your eyes, your voice, your <em>independence.</em></h1>
+          <p class="hero-intro">VisionMate turns your phone camera and voice into a guide for walking, reading, finding things and getting around, in your own language.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" data-app-link="web" href="#install"><span>Open Web App</span><small data-link-status>Coming soon</small></a>
+            <a class="button button-outline" data-app-link="apk" href="#install"><span>Download APK</span><small data-link-status>Coming soon</small></a>
+          </div>
+          <p class="hero-caption">Designed for blind and low-vision people.</p>
+        </div>
+        <div class="phone-scene" role="img" aria-label="Illustration of the VisionMate walking screen">
+          <div class="route-sketch" aria-hidden="true"><svg viewBox="0 0 220 400"><path d="M20 355c62-36 9-99 79-130s-7-83 91-131"/><circle cx="190" cy="92" r="9"/><path d="m183 93 7-11 7 11"/></svg></div>
+          <div class="phone" aria-hidden="true">
+            <div class="phone-camera"></div><div class="phone-screen">
+              <div class="screen-top"><span>VisionMate</span><span class="walk-tag">WALK</span></div>
+              <div class="sonar"><span class="sonar-ring ring-one"></span><span class="sonar-ring ring-two"></span><span class="sonar-ring ring-three"></span><span class="sonar-dot"></span><span class="sonar-obstacle"></span></div>
+              <div class="screen-label">Path awareness</div><div class="risk-track"><span></span></div><div class="risk-label"><span>Clear path</span><span>Nearby object</span></div>
+              <div class="speech-card"><span class="sound-mark" aria-hidden="true">•••</span><span>Obstacle slightly left,<br>2 steps.</span></div>
+            </div>
+          </div>
+          <span class="scene-note note-top">LOOK AHEAD</span><span class="scene-note note-bottom">MOVE AT YOUR PACE</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#problem" aria-label="Scroll to everyday challenges"><span></span></a>
+    </section>
+
+    <section class="section problem-section" id="problem" aria-labelledby="problem-title">
+      <div class="section-inner">
+        <div class="section-heading"><p class="eyebrow">Everyday situations</p><h2 id="problem-title">Small barriers can change the whole day.</h2><p>VisionMate brings practical support to the moments where a little more information makes a difference.</p></div>
+        <div class="challenge-grid">
+          <article class="challenge"><span class="line-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 38c9-2 9-12 17-14s8-12 17-14M9 12h8v8M28 31h10v10"/><circle cx="24" cy="24" r="3"/></svg></span><h3>Navigation and obstacles</h3><p class="pain">GPS shows where I am, not what is in front of me.</p><p>Voice guidance for obstacles, doors and crossings.</p></article>
+          <article class="challenge"><span class="line-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 7h17l8 8v26H12zM29 7v9h8M18 23h13M18 29h13M18 35h8"/></svg></span><h3>Reading text</h3><p class="pain">Forms and notices are not spoken aloud.</p><p>Reads documents with their structure, and translates.</p></article>
+          <article class="challenge"><span class="line-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 14h28v25H10zM16 14V9h16v5M10 22h28M18 29h1M24 29h1M30 29h1M18 34h1M24 34h1M30 34h1"/></svg></span><h3>Identifying objects</h3><p class="pain">Packages and medicines can feel the same.</p><p>Identifies products, colours and currency, and says how sure it is.</p></article>
+          <article class="challenge"><span class="line-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 39h32M12 34l8-11 6 5 11-17M33 11h4v4M14 14h8v8h-8z"/></svg></span><h3>Learning</h3><p class="pain">Diagrams and equations can lose their meaning.</p><p>Describes diagrams, graphs and maths clearly.</p></article>
+          <article class="challenge"><span class="line-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 38h34M11 38V16l13-8 13 8v22M18 38V25h12v13M16 19h4M28 19h4"/></svg></span><h3>Travel</h3><p class="pain">Which bus? Where do I get off?</p><p>Reads bus numbers, alerts at your stop and helps find assistance.</p></article>
+          <article class="challenge"><span class="line-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="7" width="28" height="34" rx="3"/><path d="M17 14h14M17 21h5M27 21h5M17 28h5M27 28h5M17 35h14"/></svg></span><h3>Daily independence</h3><p class="pain">Kiosks and touch panels are hard to use.</p><p>Reads panels and helps control your phone by voice.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section modules-section" id="modules" aria-labelledby="modules-title">
+      <div class="section-inner">
+        <div class="section-heading"><p class="eyebrow">One companion, many tasks</p><h2 id="modules-title">Everything it does</h2><p>Eight connected areas of support, shaped around everyday needs.</p></div>
+        <div class="module-grid">
+          <article class="module-card"><span class="module-mark" aria-hidden="true">01</span><h3>Press-and-hold Talk</h3><ul><li>Use the visible Talk button by pressing and holding</li><li>Speak naturally and release to stop listening</li><li>Ask about tasks, routes, contacts, notes or reminders</li><li>Works with voice or typed commands</li></ul></article>
+          <article class="module-card"><span class="module-mark" aria-hidden="true">02</span><h3>Voice agent</h3><ul><li>Ask questions in plain language</li><li>Open key features with speech commands</li><li>Hear spoken responses in your selected language</li><li>Choose device speech or Gemini voice output</li></ul></article>
+          <article class="module-card"><span class="module-mark" aria-hidden="true">03</span><h3>Vision Lens</h3><ul><li>Start camera preview only when you choose</li><li>Switch front and rear camera and adjust zoom</li><li>Ask what is in frame or read printed text</li><li>Use the optional spoken explanation of the scene</li></ul></article>
+          <article class="module-card"><span class="module-mark" aria-hidden="true">04</span><h3>Travel and location help</h3><ul><li>Share your current location and destination</li><li>Estimate distance, time and route information</li><li>View route geometry on an interactive map</li><li>Useful for everyday movement and planning</li></ul></article>
+          <article class="module-card"><span class="module-mark" aria-hidden="true">05</span><h3>Translation</h3><ul><li>Translate text into supported languages</li><li>Use spoken language output for accessibility</li><li>Helpful for reading signs, documents and notices</li><li>Supports multilingual voice-first use</li></ul></article>
+          <article class="module-card"><span class="module-mark" aria-hidden="true">06</span><h3>Notes, reminders and profile</h3><ul><li>Save reminders and personal notes</li><li>Keep recent chat history and settings</li><li>Manage profile details and language preferences</li><li>Use guest mode or optional account sync</li></ul></article>
+          <article class="module-card"><span class="module-mark" aria-hidden="true">07</span><h3>Emergency support</h3><ul><li>Call a trusted contact with confirmation</li><li>Share your location during an emergency</li><li>Open a dedicated emergency screen quickly</li><li>Helpful when a person needs fast assistance</li></ul></article>
+          <article class="module-card"><span class="module-mark" aria-hidden="true">08</span><h3>Simple phone controls</h3><ul><li>Bottom navigation for Back, Home, Go, Lens, Voice and Me</li><li>Large touch targets and screen focus for easier use</li><li>Designed for mobile browsers and installable PWA use</li><li>Lets the user stay in control of each action</li></ul></article>
+        </div>
+        <p class="module-note"><strong>Supported languages:</strong> English, Hindi, Tamil, Telugu, Kannada, Malayalam and Punjabi. The app is designed for mobile use with a fixed bottom navigation and a press-and-hold Talk action.</p>
+      </div>
+    </section>
+
+    <section class="section how-section" id="how" aria-labelledby="how-title">
+      <div class="section-inner">
+        <div class="section-heading section-heading-center"><p class="eyebrow">Clear steps, your choice</p><h2 id="how-title">How it works</h2><p>You stay in control from the first request to the spoken guidance.</p></div>
+        <svg class="flow-diagram" viewBox="0 0 800 690" role="img" aria-labelledby="flow-title flow-desc">
+          <title id="flow-title">How VisionMate works</title><desc id="flow-desc">You speak or press. VisionMate understands. The camera and sensors look. It speaks, vibrates and guides. A safety layer watches over every step.</desc>
+          <path class="flow-line" d="M400 97v76m0 72v76m0 72v76m0 72v76"/><path class="flow-arrow" d="m390 160 10 12 10-12m-20 84 10 12 10-12m-20 84 10 12 10-12m-20 84 10 12 10-12m-20 84 10 12 10-12"/>
+          <g class="flow-node"><rect x="100" y="25" width="600" height="72" rx="18"/><circle cx="143" cy="61" r="19"/><path d="M137 61h12m-6-6v12"/><text x="183" y="68">Press and hold the Talk button</text></g>
+          <g class="flow-node"><rect x="100" y="173" width="600" height="72" rx="18"/><circle cx="143" cy="209" r="19"/><path d="M135 209h16m-8-8 8 8-8 8"/><text x="183" y="216">VisionMate listens and understands</text></g>
+          <g class="flow-node"><rect x="100" y="321" width="600" height="72" rx="18"/><circle cx="143" cy="357" r="19"/><path d="M131 357s5-8 12-8 12 8 12 8-5 8-12 8-12-8-12-8z"/><circle cx="143" cy="357" r="3"/><text x="183" y="364">Camera, map and location tools activate</text></g>
+          <g class="flow-node"><rect x="100" y="469" width="600" height="72" rx="18"/><circle cx="143" cy="505" r="19"/><path d="M136 500v10m5-14v18m5-13v8m5-5v3"/><text x="183" y="512">It answers with speech, guidance or route info</text></g>
+          <g class="flow-node flow-node-safety"><rect x="100" y="617" width="600" height="58" rx="18"/><path d="m143 629 14 5v10c0 9-6 14-14 18-8-4-14-9-14-18v-10z"/><path d="m137 644 4 4 8-9"/><text x="183" y="654">The user confirms each action and stays in control</text></g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="safety-band" aria-labelledby="safety-title"><div class="safety-inner"><div class="safety-symbol" aria-hidden="true"><svg viewBox="0 0 56 64"><path d="m28 3 23 8v17c0 16-10 26-23 33C15 54 5 44 5 28V11z"/><path d="M28 19v14m0 8v1"/></svg></div><div><p class="eyebrow">Safety and honesty</p><h2 id="safety-title">An aid, not a replacement.</h2><p>VisionMate does not replace a white cane, guide dog or mobility training. Camera detection can miss things. Crossing help is information, not permission to cross. Confirm medicines and currency, and use the app in good lighting.</p></div></div></section>
+
+    <section class="section install-section" id="install" aria-labelledby="install-title">
+      <div class="section-inner">
+        <div class="section-heading section-heading-center"><p class="eyebrow">Getting started</p><h2 id="install-title">Choose how to use VisionMate</h2><p>Web app and Android download links will be added here when they are ready.</p></div>
+        <div class="install-grid">
+          <article class="install-card web-card"><div class="install-card-heading"><span class="install-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="5" y="8" width="38" height="29" rx="3"/><path d="M5 16h38M15 43h18m-9-6v6"/><circle cx="11" cy="12" r="1"/><circle cx="15" cy="12" r="1"/></svg></span><div><p class="feature-index">USE IN YOUR BROWSER</p><h3>Web App</h3></div></div><p>Open VisionMate in your browser. Add it to your home screen for quicker access.</p><a class="button button-primary" data-app-link="web" href="#install"><span>Open Web App</span><small data-link-status>Coming soon</small></a><ol class="steps-list"><li>Open the web app in your browser.</li><li>Choose your browser’s menu or share option.</li><li>Select “Add to Home Screen”.</li></ol></article>
+          <article class="install-card apk-card"><div class="install-card-heading"><span class="install-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M15 18 11 11m22 7 4-7M11 20h26v21H11zM18 26v8m12-8v8M18 41l-3 4m15-4 3 4"/><circle cx="19" cy="26" r="1"/><circle cx="29" cy="26" r="1"/></svg></span><div><p class="feature-index">FOR ANDROID</p><h3>Android APK</h3></div></div><p>Install the Android app directly. VisionMate is not on the Play Store yet.</p><a class="button button-primary" data-app-link="apk" href="#install"><span>Download APK</span><small data-link-status>Coming soon</small></a><ol class="steps-list"><li>Download the APK file.</li><li>Allow installs from this browser when prompted.</li><li>Open the file and choose Install.</li><li>Grant camera, microphone and location access when asked.</li></ol></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-inner"><div class="footer-brand"><a class="brand" href="#top" aria-label="VisionMate home"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19"/><path d="M5 20s5.5-8 15-8 15 8 15 8-5.5 8-15 8S5 20 5 20Z"/><circle cx="20" cy="20" r="4"/></svg><span>VisionMate</span></a><p>Your eyes, your voice, your independence.</p><small>Made with care for independent living.</small></div>    <div class="footer-navigation"><p class="footer-label">Explore</p><a href="#problem">Problem</a><a href="#modules">Features</a><a href="#install">Install</a><a href="README.md">README</a></div><div class="footer-actions"><a class="button button-footer" data-app-link="web" href="#install"><span>Open Web App</span><small data-link-status>Coming soon</small></a><a class="button button-footer" data-app-link="apk" href="#install"><span>Download APK</span><small data-link-status>Coming soon</small></a></div></div><p class="copyright">VisionMate · Assistive technology for everyday independence</p></footer>  <div class="mobile-install-bar" aria-label="Install VisionMate"><a class="button button-primary" data-app-link="web" href="#install"><span>Web App</span><small data-link-status>Coming soon</small></a><a class="button button-outline" data-app-link="apk" href="#install"><span>Download APK</span><small data-link-status>Coming soon</small></a></div>
+</body>
+</html>
