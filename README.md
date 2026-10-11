@@ -7,9 +7,10 @@ This repository contains the product showcase website for VisionMate, built as a
 ## Project links
 
 - **Live website:** [VisionMate — Your Accessible Assistant](https://visionmate-one.vercel.app/)
+- **Product showcase:** [VisionMate product story](https://visionmate-product.vercel.app/)
 - **GitHub repository:** [ZAHEER-R/visionmate](https://github.com/ZAHEER-R/visionmate)
 - **Clone with Git:** `git clone https://github.com/ZAHEER-R/visionmate.git`
-- **Android APK:** [Download VisionMateai.apk](./VisionMateai.apk) — add `VisionMateai.apk` to the repository root for this download link to work.
+- **Android APK:** [Download VisionMateai.apk](./VisionMateai.apk) from the repository root.
 
 <p align="center">
   <img src="assets/logo.png" alt="VisionMate logo" width="160" />
